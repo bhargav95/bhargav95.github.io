@@ -78,7 +78,15 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        (About me)
+                        I'm Bhargav, a second-year graduate student from University of Southern California, majoring in Computer Science.
+                        I am looking for full-time opportunities as a Software Engineer after my graduation (May 2019).
+                        My interests are full-stack software development, machine learning and data analytics. <br><br>
+                        I'm currently interning this fall as a Software Developer at Emotive, a startup based in Los Angeles, California.
+                        I developed the core features of the product using Django and built the frontend using HTML, CSS and AngularJS.<br><br>
+                        I've been also enthusiastic about machine learning and deep learning. During my senior year in my undergrad, I interned at Bosch,
+                        where I developed a deep learning convolutional neural network (CNN) algorithm, to detect disorders in the eye. I used Python and libraries such as Theano, Lasagne and Tensorflow
+                        to build the neural network and train it. My project improved the performance of the model, achieving an accuracy of 92%.<br><br>
+                        My interests outside the computer sciences include, but not limited to, movies, soccer, playing video games and listening to podcasts.
                     </p>
                 </div>
             </div>
@@ -89,13 +97,24 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
+            <div data-date="May 2018 &ndash; Present">
+                <h3>Emotive.io</h3>
+                <h4>Software Developer Intern</h4>
+                <ul>
+                    <li>Emotive helps brands retain their customers through personal relationships over text message.</li>
+                    <li>Developed REST APIs for the Emotive messaging platform to communicate with the backend server, using Django. Used Twilio API to handle messaging and Google NLP to obtain customer feedback sentiment.</li>
+                    <li>Streamlined integrations with customer support tools such as Zendesk and Freshdesk for brands.</li>
+                    <li>Designed the core feature called Sequences, where brands can schedule periodic texts to customers to obtain feedback, send reminder messages or recommend new products. Built schedulers using Celery and RabbitMQ.</li>
+                </ul>
+            </div>
             <div data-date="August 2016 &ndash; May 2017">
                 <h3>Robert Bosch Engineering and Business Solutions</h3>
                 <h4>Intern</h4>
                 <ul>
-                    <li>Developed, optimized and deployed a deep learning convolutional neural network (CNN) algorithm, to detect the condition Diabetic Retinopathy in the retina of the eye. I trained the model on over 80,000 images of retina scans of patients and achieved an improved accuracy of 92%.</li>
-                    <li>Researched and developed methods to find regions of hemorrhages and exudates in the eye using Regions with CNN (R-CNN).</li>
-                    <li>Built scripts using several machine learning tools including Theano, Lasagne, Caffe, Keras and TensorFlow. Deployed the project on AWS, using Flask and later Django to host the program and handle the HTTP requests.</li>
+                    <li>Developed, optimized and deployed a deep learning convolutional neural network (CNN) algorithm, to detect the condition called Diabetic Retinopathy in the retina of the eye.</li>
+                    <li>Trained the model on over 80,000 images of retinal scans and achieved an improved accuracy of 92%.</li>
+                    <li>Researched and created methods to find regions of hemorrhages and exudates in the eye with R-CNN (Regions with CNN).</li>
+                    <li>Programmed with several machine learning tools such as Theano, Lasagne, Caffe, Keras, and TensorFlow.</li>
                 </ul>
             </div>
         </div>
@@ -108,10 +127,15 @@
             <h3>University of Southern California</h3>
             <span class="education-date">Aug 2017 - May 2019</span>
             <h4>Master of Science in Computer Science</h4>
-            <p> Selected Courses
+            <h4>GPA: 4.0</h4>
+            <p> Courses Taken
                 <ul>
                     <li>CS561: Foundations of Artificial Intelligence (Fall 2017)</li>
                     <li>CS570: Analysis of Algorithms (Fall 2017)</li>
+                    <li>CS544: Applied Natural Language Processing (Spring 2018)</li>
+                    <li>CS571: Web Technologies (Spring 2018)</li>
+                    <li>CS567: Analysis of Algorithms (Fall 2018)</li>
+                    <li>CS572: Analysis of Algorithms (Fall 2018)</li>
                 </ul>
             </p>
         </div>
@@ -121,12 +145,7 @@
             <h3>Sir M. Visvesvaraya Institute of Technology</h3>
             <span class="education-date">Aug 2013 - June 2017</span>
             <h4>Bachelor of Engineering in Computer Science</h4>
-            <p> Selected Courses
-                <ul>
-                    <li>A</li>
-                    <li>B</li>
-                </ul>
-            </p>
+            <h4>Aggregate Score: 78.3% (First Class with Distinction)</h4>
         </div>
         <!-- End .education-block -->
     </div>
@@ -138,6 +157,26 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
+                        <img src="images/marvel.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Marvel Character ChatBot</h3>
+                        <p>
+                            An educational chat-bot app for kids to interact with their favorite marvel superheroes. Implemented with Marvel API and Microsoft Cognitive Services API to create the chatbot. <br>
+                            Demoed at Hacktech 2018 (Caltech)
+                        </p>
+                        <a href="https://github.com/bhargav95/hacktech-2018" target="_blank">View Project</a>
+                        <br>
+                        <br>
+                        <a href="https://devpost.com/software/marvel-character-chat-box" target="_blank">View Devpost</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
                         <img src="images/fpl.jpg" />
                     </div>
                     <!-- End .project-image -->
@@ -146,7 +185,7 @@
                         <p>
                             A simple Python script to keep a tab on players' rise and fall in price and aid the user in making transfers.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://github.com/bhargav95/Fantasy-Premier-League-Market" target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -154,15 +193,35 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/imdb.jpg" />
+                        <img src="images/simple-blockchain.png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>IMDb User Analyser</h3>
+                        <h3>Simple-Blockchain</h3>
                         <p>
-                            A Python script to analyze an IMDb user's ratings of movies and predict ratings of unwatched movies using the library Scikit-learn.
+                            An interactive web application to demonstrate the working of a simplified blockchain.
+                            <br>
+                            Developed using HTML,CSS, AngularJS and SHA-256 javascript library for encryption.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="https://bhargav95.github.io/simple-blockchain/" target="_blank">View Demo</a>
+                        <br><br>
+                        <a href="https://github.com/bhargav95/simple-blockchain" target="_blank">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/fruit-rage.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Fruit Rage</h3>
+                        <p>
+                            A game-playing AI agent in C++ to determine the best next move for a player up to 9 moves ahead.
+                        </p>
+                        <a href="https://github.com/bhargav95/CS561-hw2" target="_blank">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -183,6 +242,8 @@
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
+
+
             </div>
         </div>
     </div>
@@ -194,9 +255,6 @@
             <li>C</li>
             <li>C++</li>
             <li>Python</li>
-            <li>Theano</li>
-            <li>Lasagne</li>
-            <li>TensorFlow</li>
             <li>Flask</li>
             <li>Django</li>
             <li>Linux</li>
